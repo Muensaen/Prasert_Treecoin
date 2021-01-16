@@ -17,8 +17,8 @@
      
 เนื่องจากการเขียน smart contract นั้นยากและถ้าเราเริ่มเขียนเองทั้งหมดอาจจะเกิดข้อผิดพลาดได้ง่ายๆ เราก็เลยต้องหาโค้ดที่เขียนและทดสอบออกมาเป็นอย่างดีแล้วมาเป็นตัวตั้ง ในที่นี้ผมจะใช้ OpenZeppelin ที่ค่อนข้างดีกว่าเขียนเองหมดอย่างแน่นอน โดยติดตั้งดังนี้
 
-```npm init -y
-npm install --save @openzeppelin/contracts@v2.5 web3```
+```npm init -y```
+```npm install --save @openzeppelin/contracts@v2.5 web3 ```
 
 
 6) เขียน smart contract ของเหรียญก่อนเลย โดยสร้างไฟล์ชื่อ Treecoin.sol ที่โฟลเดอร์ contracts แล้วใส่โค้ดดังนี้
