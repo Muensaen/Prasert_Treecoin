@@ -162,6 +162,9 @@ Crowdsale address: 0xE014bA6f682bff054337A7e5f6C894255ab50EFd
 เอา Mnemonic 12 คำที่จดเอาไว้มาวาง ใส่รหัสผ่านให้ตรงกันแล้วกด Import เปลี่ยนเป็น Ganach จากมุมบนขวา จะเห็นว่ามีเงินอยู่ในกระเป๋าเกือบ 100 ETH เป็นเงินที่โปรแกรม ganache ใส่มาให้เราทดสอบ มันถูกใช้ไปนิดหน่อยตอนที่เรา migrate contract
 ![image](https://user-images.githubusercontent.com/48530299/104824640-25532500-5886-11eb-833f-0e9a74cee90d.png)
 
+![image](https://user-images.githubusercontent.com/48530299/104824687-8ed33380-5886-11eb-95b0-996c907019f8.png)
+14) กดปุ่ม Add Token เพื่อเพิ่ม Tree Coin แล้ว>ใส่ Token Address ที่จดเอาไว้จากขั้นตอนก่อนหน้า ของผมเป็น 0x7c9A56E7B62a2b497044094A2eB1AaF26239XXXX ถ้าใส่ถูกต้องจะขึ้นชื่อเหรียญ Tree ให้เอง กด Add จะได้ Token Tree เพิ่มขึ้นมา กด Next แล้ว Add Tokens จะเห็นว่ามี 0 BNK48 เพิ่มขึ้นมา เพราะเรายังไม่ได้ซื้อเหรียญนั่นเอง
+
 
 
 
