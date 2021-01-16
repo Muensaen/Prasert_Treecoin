@@ -168,6 +168,8 @@ Crowdsale address: 0xE014bA6f682bff054337A7e5f6C894255ab50EFd
 ![image](https://user-images.githubusercontent.com/48530299/104824791-b24aae00-5887-11eb-8847-494c13fe162d.png)
 ![image](https://user-images.githubusercontent.com/48530299/104824832-081f5600-5888-11eb-8901-ca0745a484e9.png)
 ![image](https://user-images.githubusercontent.com/48530299/104824924-f7bbab00-5888-11eb-84e0-86a40a5fe10c.png)
+![image](https://user-images.githubusercontent.com/48530299/104824967-4e28e980-5889-11eb-8317-d5ea0d9e1bed.png)
+
 
 
 สรุป
