@@ -163,7 +163,9 @@ Crowdsale address: 0xE014bA6f682bff054337A7e5f6C894255ab50EFd
 ![image](https://user-images.githubusercontent.com/48530299/104824640-25532500-5886-11eb-833f-0e9a74cee90d.png)
 
 ![image](https://user-images.githubusercontent.com/48530299/104824687-8ed33380-5886-11eb-95b0-996c907019f8.png)
-14) กดปุ่ม Add Token เพื่อเพิ่ม Tree Coin แล้ว>ใส่ Token Address ที่จดเอาไว้จากขั้นตอนก่อนหน้า ของผมเป็น 0x7c9A56E7B62a2b497044094A2eB1AaF26239XXXX ถ้าใส่ถูกต้องจะขึ้นชื่อเหรียญ Tree ให้เอง กด Add จะได้ Token Tree เพิ่มขึ้นมา กด Next แล้ว Add Tokens จะเห็นว่ามี 0 BNK48 เพิ่มขึ้นมา เพราะเรายังไม่ได้ซื้อเหรียญนั่นเอง
+14) กดปุ่ม Add Token เพื่อเพิ่ม Tree Coin แล้ว>ใส่ Token Address ที่จดเอาไว้จากขั้นตอนก่อนหน้า ของผมเป็น 0xb118f3485A5E007AeA6DB60459209Ec40439F2F4 ถ้าใส่ถูกต้องจะขึ้นชื่อเหรียญ Tree ให้เอง กด Add จะได้ Token Tree เพิ่มขึ้นมา กด Next แล้ว Add Tokens จะเห็นว่ามี 0 Tree เพิ่มขึ้นมา เพราะเรายังไม่ได้ซื้อเหรียญนั่นเอง
+![image](https://user-images.githubusercontent.com/48530299/104824756-5122da80-5887-11eb-9f2f-8b484721009e.png)
+
 
 
 
