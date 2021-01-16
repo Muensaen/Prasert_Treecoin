@@ -160,7 +160,8 @@ Crowdsale address: 0xE014bA6f682bff054337A7e5f6C894255ab50EFd
 12) ต่อไปก็จะลองทดสอบว่าเราโอน Ethereum ไปยัง Crowdsale address แล้วจะได้เหรียญจริงๆ ไหม โดยการลง Browser Extension ชื่อว่า Metamask เป็น กระเป๋าตังค์ Ethereum ที่ใช้งานบนเว็บที่ทำงานบน Ethereum ได้ โหลดที่ https://metamask.io/
 13) เปิด Metamask -> Get Started-> Import Wallet
 เอา Mnemonic 12 คำที่จดเอาไว้มาวาง ใส่รหัสผ่านให้ตรงกันแล้วกด Import เปลี่ยนเป็น Ganach จากมุมบนขวา จะเห็นว่ามีเงินอยู่ในกระเป๋าเกือบ 100 ETH เป็นเงินที่โปรแกรม ganache ใส่มาให้เราทดสอบ มันถูกใช้ไปนิดหน่อยตอนที่เรา migrate contract
-![image](https://user-images.githubusercontent.com/48530299/104824557-541ccb80-5885-11eb-9095-0da532d38b56.png)
+![image](https://user-images.githubusercontent.com/48530299/104824640-25532500-5886-11eb-833f-0e9a74cee90d.png)
+
 
 
 
