@@ -24,7 +24,7 @@
 
 6) เขียน smart contract ของเหรียญก่อนเลย โดยสร้างไฟล์ชื่อ Treecoin.sol ที่โฟลเดอร์ contracts แล้วใส่โค้ดดังนี้
 
-```pragma solidity >=0.4.21 <0.7.0;
+``` pragma solidity >=0.4.21 <0.7.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol";
 import "@openzeppelin/contracts/ownership/Ownable.sol";
@@ -36,7 +36,8 @@ contract TreeCoin is ERC20Mintable {
     string public constant symbol = "Tree"; // solium-disable-line uppercase
     uint8 public constant decimals = 18; // solium-disable-line uppercase
 
-} ```
+}
+```
 
 
 เป็นอันว่าได้เหรียญแล้วโดยการสืบทอดคุณสมบัติของ Contract MintableToken ที่ OpenZeppelin เขียนเอาไว้นั้นเอง เอาจริงๆ 
@@ -60,7 +61,8 @@ contract BNK48CoinCrowdSale is CappedCrowdsale, RefundableCrowdsale, MintedCrowd
     {
         require(_goal <= _cap);
     }
-}```
+}
+```
 
 Contract นี้ก็จะสืบทอดความสามารถของ Contract ต่างๆ ที่เกี่ยวของมาใส่ TreeCoinCrowdSale ไม่ว่าจะเป็นการจำกัดเวลาซื้อขายจาก TimedCrowdsale, การจำกัดจำนวนเงินสูงสุดที่จะระดมทุนด้วย CappedCrowdsale, การคืนเงินถ้าระดมทุนไม่ถึงเป้าจาก RefundableCrowdsale รวมกันจนเป็นสิ่งที่เราต้องการได้ถ้าต้องการเพิ่มหรือตัดออกฟีเจอร์ออกก็ทำได้เลยจากตรงนี้
 8) การสร้าง script สำหรับติดตั้ง smart contract เข้าไปใน Ethereum Blockchain นั่นเอง โดยการสร้างไฟล์ 2_deploy_contracts.js ในโฟล์เดอร์ migrations ดังนี้
@@ -95,7 +97,8 @@ module.exports = function (deployer, network, accounts) {
     console.log('Crowdsale address: ', crowdsale.address);
     return true;
   });
-}; ```
+};
+```
 
 
 ผมได้ตั้งไว้ว่าจะระดมทุนขั้นต่ำ 5,000 ETH และสูงสุด 10,000 ETH ด้วยราคาขาย 20,000 Token ต่อ 1 ETH เริ่มขายจากปัจจุบันไปจนถึง วันที่ 9 กันยายน 2021 เวลา 09:09:09 UTC ไฟล์นี้สำคัญมาก โดยมันจะไปสั่งสร้าง token ก่อนและก็สร้าง crowsale contract สุดท้ายให้สิทธิ์ address ของ crowdsale เป็นคนสร้างเหรียญได้ตรง token.addMinter(crowdsale.address);
@@ -125,7 +128,8 @@ module.exports = function (deployer, network, accounts) {
             //          - if specified, host and port are ignored.
         },
     }
-};```
+};
+```
 
 โดยคอนฟิก development จะชี้ไปที่เครื่องตัวเราเอง เป็นเน็ตเวิร์ค Ethereum ที่เราอยู่บนเครื่องเราคนเดียว
 11) รันเน็ตเวิร์ค Ethereum ที่เราจะทดลอง deploy contract ลงไป เปิด terminal ใหม่และรันคำสั่งดังนี้
@@ -133,6 +137,8 @@ module.exports = function (deployer, network, accounts) {
 ```ganache-cli -u 0```
 
 เปิดค้างเอาไว้ จะได้ผลลัพธ์ดังนี้
+
+
 
 
 Run
