@@ -1,5 +1,4 @@
-# วิธีการออกเหรียญTreeCoin และ ขาย ICO บน 
-##Ethereum Smart Contract
+# วิธีการออกเหรียญTreeCoin และ ขาย ICO บน Ethereum Smart Contract
 
 
 
