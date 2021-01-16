@@ -142,6 +142,15 @@ module.exports = function (deployer, network, accounts) {
 
 มันจะใช้ user 0 ทำงาน และเราต้องจดหรือก็อปปี้ Mnemonic เอาไว้ ในของผมจะเป็น absent price plunge chair bone rely exotic hospital pudding rare ranch xxxx ของคุณเองจะไม่เหมือนของผม มันจะเปลี่ยนไปเรื่อยๆ ถ้ารันใหม่
 
+![image](https://user-images.githubusercontent.com/48530299/104824118-ce4b5100-5881-11eb-91d1-bae18985c2de.png)
+
+12) จากนั้นก็เริ่ม migrate contract เข้าไปใน ganache ด้วยคำสั่ง
+
+```truffle migrate --reset```
+
+จะได้ผลลัพธ์ดังนี้
+
+
 
 
 
