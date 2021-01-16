@@ -9,11 +9,14 @@
  4. สร้างโฟลเดอร์ที่จะเก็บ smart contract และย้ายเข้าไปใช้งาน โดยชื่อเหรียญที่ผมจะออกในตัวอย่างนี้จะใช้ชื่อว่า TreeCoin ตัวย่อ Tree ล่ะกันจะได้ดูน่ารักๆ
    ``` mkdir Treecoin && cd Treecoin```
  5  สั่งให้ truffle สร้างไฟล์เริ่มต้นของโปรเจค
+ 
      ```truffle init```
+     
 เนื่องจากการเขียน smart contract นั้นยากและถ้าเราเริ่มเขียนเองทั้งหมดอาจจะเกิดข้อผิดพลาดได้ง่ายๆ เราก็เลยต้องหาโค้ดที่เขียนและทดสอบออกมาเป็นอย่างดีแล้วมาเป็นตัวตั้ง ในที่นี้ผมจะใช้ OpenZeppelin ที่ค่อนข้างดีกว่าเขียนเองหมดอย่างแน่นอน โดยติดตั้งดังนี้
 
 ```npm init -y
 npm install --save @openzeppelin/contracts@v2.5 web3```
+
 
 6) เขียน smart contract ของเหรียญก่อนเลย โดยสร้างไฟล์ชื่อ Treecoin.sol ที่โฟลเดอร์ contracts แล้วใส่โค้ดดังนี้
 
@@ -30,6 +33,7 @@ contract TreeCoin is ERC20Mintable {
     uint8 public constant decimals = 18; // solium-disable-line uppercase
 
 } ```
+
 
 เป็นอันว่าได้เหรียญแล้วโดยการสืบทอดคุณสมบัติของ Contract MintableToken ที่ OpenZeppelin เขียนเอาไว้นั้นเอง เอาจริงๆ 
 แล้ว contract ก็เหมือน Class ในภาษาเชิงวัตถุอื่นๆ นั่นแหละ Contract MintableToken คือ Token ที่สามารถทำเหรียญขึ้นมาเพิ่มเติมมาเพิ่มเรื่อยๆ นั้นเอง จึงไม่ได้จำกัดจำนวนเหรียญเอาไว้
