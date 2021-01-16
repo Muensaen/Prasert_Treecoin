@@ -5,9 +5,12 @@
     ```npm install -g ganache-cli```
 
     ติดตั้ง Truffle เฟรมเวิร์คสำหรับพัฒนาภาษา Solidity (ภาษาหลักที่ใช้เขียน smart contract) ดังนี้
+    
     ```npm install -g truffle ```
+    
  4. สร้างโฟลเดอร์ที่จะเก็บ smart contract และย้ายเข้าไปใช้งาน โดยชื่อเหรียญที่ผมจะออกในตัวอย่างนี้จะใช้ชื่อว่า TreeCoin ตัวย่อ Tree ล่ะกันจะได้ดูน่ารักๆ
-   ``` mkdir Treecoin && cd Treecoin```
+   ```mkdir Treecoin && cd Treecoin```
+   
  5  สั่งให้ truffle สร้างไฟล์เริ่มต้นของโปรเจค
  
      ```truffle init```
@@ -60,6 +63,7 @@ contract BNK48CoinCrowdSale is CappedCrowdsale, RefundableCrowdsale, MintedCrowd
 
 Contract นี้ก็จะสืบทอดความสามารถของ Contract ต่างๆ ที่เกี่ยวของมาใส่ TreeCoinCrowdSale ไม่ว่าจะเป็นการจำกัดเวลาซื้อขายจาก TimedCrowdsale, การจำกัดจำนวนเงินสูงสุดที่จะระดมทุนด้วย CappedCrowdsale, การคืนเงินถ้าระดมทุนไม่ถึงเป้าจาก RefundableCrowdsale รวมกันจนเป็นสิ่งที่เราต้องการได้ถ้าต้องการเพิ่มหรือตัดออกฟีเจอร์ออกก็ทำได้เลยจากตรงนี้
 8) การสร้าง script สำหรับติดตั้ง smart contract เข้าไปใน Ethereum Blockchain นั่นเอง โดยการสร้างไฟล์ 2_deploy_contracts.js ในโฟล์เดอร์ migrations ดังนี้
+
 ```const TreeCoinCrowdSale = artifacts.require("TreeCoinCrowdSale");
 const TreeCoin = artifacts.require("TreeCoin");
 
@@ -93,8 +97,9 @@ module.exports = function (deployer, network, accounts) {
 }; ```
 
 
-ผมได้ตั้งไว้ว่าจะระดมทุนขั้นต่ำ 5,000 ETH และสูงสุด 10,000 ETH ด้วยราคาขาย 20,000 Token ต่อ 1 ETH เริ่มขายจากปัจจุบันไปจนถึง วันที่ 8 กันยายน 2021 เวลา 09:09:09 UTC ไฟล์นี้สำคัญมาก โดยมันจะไปสั่งสร้าง token ก่อนและก็สร้าง crowsale contract สุดท้ายให้สิทธิ์ address ของ crowdsale เป็นคนสร้างเหรียญได้ตรง token.addMinter(crowdsale.address);
+ผมได้ตั้งไว้ว่าจะระดมทุนขั้นต่ำ 5,000 ETH และสูงสุด 10,000 ETH ด้วยราคาขาย 20,000 Token ต่อ 1 ETH เริ่มขายจากปัจจุบันไปจนถึง วันที่ 9 กันยายน 2021 เวลา 09:09:09 UTC ไฟล์นี้สำคัญมาก โดยมันจะไปสั่งสร้าง token ก่อนและก็สร้าง crowsale contract สุดท้ายให้สิทธิ์ address ของ crowdsale เป็นคนสร้างเหรียญได้ตรง token.addMinter(crowdsale.address);
 9) ลอง compile โค้ดว่าคอมไฟล์ผ่านไหมด้วยคำสั่ง (ถ้าไม่ผ่านก็แก้ตามมันบอก)
+
 ```truffle compile```
 
 10) แก้คอนฟิกไฟล์สำหรับการ migrate (deploy) contract ที่ไฟล์ truffle.js ดังนี้
