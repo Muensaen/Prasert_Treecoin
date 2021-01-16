@@ -1,4 +1,12 @@
 # วิธีการออกเหรียญTreeCoin และ ขาย ICO บน Ethereum Smart Contract
+1.	ติดตั้ง NodeJS โดยไปดูวิธีติดตั้งได้เลยที่ https://nodejs.org/en/
+2.  สำหรับ Linux ทำตามนี้จะไม่ต้อง sudo เพื่อติดตั้งโปรแกรมผ่าน npm
+3.  ติดตั้งตัว Ethereum จำลองและตัว client สำหรับทดสอบด้วยคำสั่ง
+    '''npm install -g ganache-cli'''
+
+    ติดตั้ง Truffle เฟรมเวิร์คสำหรับพัฒนาภาษา Solidity (ภาษาหลักที่ใช้เขียน smart contract) ดังนี้
+    '''npm install -g truffle '''
+
 
 
 
