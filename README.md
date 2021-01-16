@@ -138,6 +138,9 @@ module.exports = function (deployer, network, accounts) {
 
 เปิดค้างเอาไว้ จะได้ผลลัพธ์ดังนี้
 
+![image](https://user-images.githubusercontent.com/48530299/104823993-ebcbeb00-5880-11eb-911a-b8ed0346286b.png)
+
+
 
 
 
