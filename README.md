@@ -140,6 +140,9 @@ module.exports = function (deployer, network, accounts) {
 
 ![image](https://user-images.githubusercontent.com/48530299/104823993-ebcbeb00-5880-11eb-911a-b8ed0346286b.png)
 
+มันจะใช้ user 0 ทำงาน และเราต้องจดหรือก็อปปี้ Mnemonic เอาไว้ ในของผมจะเป็น absent price plunge chair bone rely exotic hospital pudding rare ranch xxxx ของคุณเองจะไม่เหมือนของผม มันจะเปลี่ยนไปเรื่อยๆ ถ้ารันใหม่
+
+
 
 
 
