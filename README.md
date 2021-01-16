@@ -167,6 +167,8 @@ Crowdsale address: 0xE014bA6f682bff054337A7e5f6C894255ab50EFd
 ![image](https://user-images.githubusercontent.com/48530299/104824756-5122da80-5887-11eb-9f2f-8b484721009e.png)
 ![image](https://user-images.githubusercontent.com/48530299/104824791-b24aae00-5887-11eb-8847-494c13fe162d.png)
 ![image](https://user-images.githubusercontent.com/48530299/104824832-081f5600-5888-11eb-8901-ca0745a484e9.png)
+![image](https://user-images.githubusercontent.com/48530299/104824924-f7bbab00-5888-11eb-84e0-86a40a5fe10c.png)
+
 
 สรุป
 ได้ลองสร้างเหรียญ BNK48Coin แล้วเขียนโปรแกรมขาย ICO ไปได้ง่ายด้วยโปรแกรมไม่กี่บรรทัด ต้องขอบคุณ OpenZeppelin แต่การเขียน smart contract จริงๆ จังๆ นั้นไม่ใช่เรื่องง่าย การเอา Smart contract ขึ้น Network 
