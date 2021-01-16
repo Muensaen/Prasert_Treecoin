@@ -152,6 +152,17 @@ module.exports = function (deployer, network, accounts) {
 
 ![image](https://user-images.githubusercontent.com/48530299/104824283-fdae8d80-5882-11eb-97a5-b2de56abfe2e.png)
 
+จากผลลัพธ์ด้านบนแปลว่าผมได้สร้าง contract สำเร็จไปที่
+Token address: 0xb118f3485A5E007AeA6DB60459209Ec40439F2F4
+Crowdsale address: 0xE014bA6f682bff054337A7e5f6C894255ab50EFd
+จดสอง Address นี้เอาไว้ ของคุณจะไม่เหมือนกับของผม
+
+12) ต่อไปก็จะลองทดสอบว่าเราโอน Ethereum ไปยัง Crowdsale address แล้วจะได้เหรียญจริงๆ ไหม โดยการลง Browser Extension ชื่อว่า Metamask เป็น กระเป๋าตังค์ Ethereum ที่ใช้งานบนเว็บที่ทำงานบน Ethereum ได้ โหลดที่ https://metamask.io/
+13) เปิด Metamask -> Get Started-> Import Wallet
+เอา Mnemonic 12 คำที่จดเอาไว้มาวาง ใส่รหัสผ่านให้ตรงกันแล้วกด Import เปลี่ยนเป็น network Localhost:8545 จากมุมบนขวา จะเห็นว่ามีเงินอยู่ในกระเป๋าเกือบ 100 ETH เป็นเงินที่โปรแกรม ganache ใส่มาให้เราทดสอบ มันถูกใช้ไปนิดหน่อยตอนที่เรา migrate contract
+
+
+
 
 
 
