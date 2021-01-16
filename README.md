@@ -165,6 +165,8 @@ Crowdsale address: 0xE014bA6f682bff054337A7e5f6C894255ab50EFd
 ![image](https://user-images.githubusercontent.com/48530299/104824687-8ed33380-5886-11eb-95b0-996c907019f8.png)
 14) กดปุ่ม Add Token เพื่อเพิ่ม Tree Coin แล้ว>ใส่ Token Address ที่จดเอาไว้จากขั้นตอนก่อนหน้า ของผมเป็น 0xb118f3485A5E007AeA6DB60459209Ec40439F2F4 ถ้าใส่ถูกต้องจะขึ้นชื่อเหรียญ Tree ให้เอง กด Add จะได้ Token Tree เพิ่มขึ้นมา กด Next แล้ว Add Tokens จะเห็นว่ามี 0 Tree เพิ่มขึ้นมา เพราะเรายังไม่ได้ซื้อเหรียญนั่นเอง
 ![image](https://user-images.githubusercontent.com/48530299/104824756-5122da80-5887-11eb-9f2f-8b484721009e.png)
+![image](https://user-images.githubusercontent.com/48530299/104824791-b24aae00-5887-11eb-8847-494c13fe162d.png)
+
 
 
 
