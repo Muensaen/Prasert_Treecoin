@@ -150,6 +150,10 @@ module.exports = function (deployer, network, accounts) {
 
 จะได้ผลลัพธ์ดังนี้
 
+![image](https://user-images.githubusercontent.com/48530299/104824283-fdae8d80-5882-11eb-97a5-b2de56abfe2e.png)
+
+
+
 
 
 
