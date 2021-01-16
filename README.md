@@ -166,7 +166,10 @@ Crowdsale address: 0xE014bA6f682bff054337A7e5f6C894255ab50EFd
 14) กดปุ่ม Add Token เพื่อเพิ่ม Tree Coin แล้ว>ใส่ Token Address ที่จดเอาไว้จากขั้นตอนก่อนหน้า ของผมเป็น 0xb118f3485A5E007AeA6DB60459209Ec40439F2F4 ถ้าใส่ถูกต้องจะขึ้นชื่อเหรียญ Tree ให้เอง กด Add จะได้ Token Tree เพิ่มขึ้นมา กด Next แล้ว Add Tokens จะเห็นว่ามี 0 Tree เพิ่มขึ้นมา เพราะเรายังไม่ได้ซื้อเหรียญนั่นเอง
 ![image](https://user-images.githubusercontent.com/48530299/104824756-5122da80-5887-11eb-9f2f-8b484721009e.png)
 ![image](https://user-images.githubusercontent.com/48530299/104824791-b24aae00-5887-11eb-8847-494c13fe162d.png)
+![image](https://user-images.githubusercontent.com/48530299/104824832-081f5600-5888-11eb-8901-ca0745a484e9.png)
 
+สรุป
+ได้ลองสร้างเหรียญ BNK48Coin แล้วเขียนโปรแกรมขาย ICO ไปได้ง่ายด้วยโปรแกรมไม่กี่บรรทัด ต้องขอบคุณ OpenZeppelin แต่การเขียน smart contract จริงๆ จังๆ นั้นไม่ใช่เรื่องง่าย การเอา Smart contract ขึ้น Network 
 
 
 
@@ -193,5 +196,3 @@ npm install --save @openzeppelin/contracts@v2.5 web3
 // open Ganache
 truffle migrate --reset
 ```
-![image](https://user-images.githubusercontent.com/48530299/104815565-e2725c80-5847-11eb-871a-639dda32f1ef.png)
-![image](https://user-images.githubusercontent.com/48530299/104815625-45fc8a00-5848-11eb-8c84-262b8a193d2f.png)
