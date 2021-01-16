@@ -11,3 +11,4 @@ npm install --save @openzeppelin/contracts@v2.5 web3
 // open Ganache
 truffle migrate --reset
 ```
+![image](https://user-images.githubusercontent.com/48530299/104815565-e2725c80-5847-11eb-871a-639dda32f1ef.png)
