@@ -174,7 +174,8 @@ Crowdsale address: 0xE014bA6f682bff054337A7e5f6C894255ab50EFd
 
 
 สรุป
-ได้ลองสร้างเหรียญ BNK48Coin แล้วเขียนโปรแกรมขาย ICO ไปได้ง่ายด้วยโปรแกรมไม่กี่บรรทัด ต้องขอบคุณ OpenZeppelin แต่การเขียน smart contract จริงๆ จังๆ นั้นไม่ใช่เรื่องง่าย การเอา Smart contract ขึ้น Network 
+ได้ลองสร้างเหรียญ TreeCoin แล้วเขียนโปรแกรมขาย ICO ไปได้ง่ายด้วยโปรแกรมไม่กี่บรรทัด ต้องขอบคุณ OpenZeppelin 
+แต่การเขียน smart contract จริงๆ จังๆ นั้นไม่ใช่เรื่องง่าย การเอา Smart contract ขึ้น Network 
 
 
 
