@@ -50,7 +50,7 @@ import "@openzeppelin/contracts/crowdsale/validation/CappedCrowdsale.sol";
 import "@openzeppelin/contracts/crowdsale/distribution/RefundableCrowdsale.sol";
 import "@openzeppelin/contracts/crowdsale/emission/MintedCrowdsale.sol";
 
-contract BNK48CoinCrowdSale is CappedCrowdsale, RefundableCrowdsale, MintedCrowdsale
+contract TreeCoinCrowdSale is CappedCrowdsale, RefundableCrowdsale, MintedCrowdsale
 {
 
     constructor(uint256 _openingTime, uint256 _closingTime, uint256 _rate, address payable _wallet, uint256 _cap, IERC20 _token, uint256 _goal) public
